@@ -23,10 +23,12 @@ public class ListOfMap {
         map2.put("miya",14);
         map2.put("Letty",15);
 
-        List<Map<String,Integer>> list = new LinkedList<>();
-        list.add(map);
-        list.add(map1);
-        list.add(map2);
+//        List<Map<String,Integer>> list = new ArrayList<>();
+//        list.add(map);
+//        list.add(map1);
+//        list.add(map2);
+
+        List<Map<String,Integer>> list = Arrays.asList(map,map1,map2);
 
 
         list.forEach((l)->{
