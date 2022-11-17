@@ -45,13 +45,7 @@ public class ComparatorDemo {
 
         Comparator<ComparatorDemo> c2 = (ComparatorDemo o1, ComparatorDemo o2)-> {
 
-                if (o1.id == o2.id) {
-                    return 0;
-                } else if (o1.id > o2.id) {
-                    return 1;
-                } else {
-                    return -1;
-                }
+               return o1.name.compareTo(o2.name);
 
         };
 
