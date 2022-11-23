@@ -24,8 +24,7 @@ public class PSVMDemo {
 
         PSVMDemo obj = new PSVMDemo();
 
-        System.out.println(args[0]);
-//        System.out.println(obj.i);
+        System.out.println(obj.i);
 //        show(3);
 
     }
