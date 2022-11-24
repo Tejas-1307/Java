@@ -7,10 +7,11 @@ public class clg {
     String name;
     String address;
 
-    public static void main(String[] args) {
-
-    }
+//    public static void main(String[] args) {
+//
+//    }
     public void show(){
+
         System.out.println("in show");
     }
 }
@@ -18,6 +19,7 @@ public class clg {
 class teacher extends clg {
 
     public void show() {
+
         System.out.println("in show");
     }
 
@@ -30,16 +32,16 @@ class teacher extends clg {
         System.out.println(obj.id + " " + obj.name + " " + obj.address);
     }
 }
-class classroom extends  teacher{
-
-    public void display(){
-        classroom obj = new classroom();
-        obj.id = 2;
-        obj.name = "john";
-        obj.address = "pune";
-
-        obj.show();
-        System.out.println(obj.id+" "+obj.name+" "+obj.address);
-    }
-}
+//class classroom extends  teacher{
+//
+//    public void display(){
+//        classroom obj = new classroom();
+//        obj.id = 2;
+//        obj.name = "john";
+//        obj.address = "pune";
+//
+//        obj.show();
+//        System.out.println(obj.id+" "+obj.name+" "+obj.address);
+//    }
+//}
 
