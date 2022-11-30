@@ -32,12 +32,14 @@ public class StreamApi {
         System.out.println(str.apply("welcome"));
 
         //
-        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
 
         System.out.println(IntStream.of(1, 2, 3, 4, 5, 6, 7).max().getAsInt());//print max number
         System.out.println(Arrays.toString(IntStream.range(1, 100).toArray()));//print 1 to 100 no
         System.out.println(IntStream.range(1, 11).sum());//print 1 to 10 sum.
 
+        //
+
+        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
         Predicate<Integer> max = new Predicate<Integer>() {
             @Override
             public boolean test(Integer integer) {
