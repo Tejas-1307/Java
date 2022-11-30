@@ -5,12 +5,12 @@ public class MethodRefStatic {
     public static void main(String[] args) {
         //method ref to static method
 
-        MyInterface4 myInterface4 = MethodRefStatic::display ;
-        myInterface4.Show();
+        MyInterface4 myInterface4 = MethodRefStatic::display ;//refer
+        myInterface4.Show();//call
 
         }
             public static void display() {
-                System.out.println("in display");//call
+                System.out.println("in display");
             }
 
     }
