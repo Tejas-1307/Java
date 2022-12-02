@@ -3,6 +3,7 @@ package Java8;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class SortedDemo {
@@ -17,6 +18,8 @@ public class SortedDemo {
         System.out.println();
 
         list.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList()).forEach(System.out::println);
+
+
     }
 
 }

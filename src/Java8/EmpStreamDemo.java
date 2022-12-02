@@ -33,13 +33,17 @@ public class EmpStreamDemo {
     public static void main(String[] args) {
 
         List<EmpStreamDemo>list = new ArrayList<>();
-        list.add(new EmpStreamDemo(1,"tejas",800000.0));
-        list.add(new EmpStreamDemo(2,"Amit",900000.0));
+        list.add(new EmpStreamDemo(1,"tejas",80000.0));
+        list.add(new EmpStreamDemo(2,"Amit",90000.0));
         list.add(new EmpStreamDemo(3,"jeevan",9000.0));
         list.add(new EmpStreamDemo(4,"manish",8000.0));
 
-//        Predicate<Integer>predicate=(p)->p>10000.0;
 
-        list.stream().filter(empStreamDemo -> empStreamDemo.salary>=10000.0).forEach(System.out::println);
+
+//        list.stream().filter(empStreamDemo -> empStreamDemo.salary>=10000.0).forEach(System.out::println);
+
+        Predicate<EmpStreamDemo>predicate = EmpStreamDemo -> EmpStreamDemo.getSalary()>10000.0;
+
+        list.stream().filter(predicate).forEach(System.out::println);
     }
 }
