@@ -30,6 +30,5 @@ public class GenericDemo<T> {
 
         String  s= (String) list.get(0);
 
-
     }
 }

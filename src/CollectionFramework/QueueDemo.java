@@ -16,7 +16,7 @@ public class QueueDemo {
 //        System.out.println(queue.peek());//it returns null when queue is empty
 //        System.out.println(queue.element());//it returns exception when queue is empty
 
-        System.out.println(queue.poll());//it rmove head or it returns null when queue is empty
+        System.out.println(queue.poll());//it remove head or it returns null when queue is empty
         System.out.println(queue.remove());//it returns excepton when queue is empty
 
     }

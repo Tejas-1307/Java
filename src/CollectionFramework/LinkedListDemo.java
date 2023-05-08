@@ -2,7 +2,7 @@ package CollectionFramework;
 
 //LinkedList store Duplicate value
 //LinkedList maintain insertion order
-//Linkedlist uses double linked list to store the element
+//Linkedlist uses doubly linked list to store the element
 //
 
 import java.util.LinkedList;
