@@ -1,6 +1,6 @@
 package FinalDemo;
 /*
-*final keyword-> 1. to declare a constsnt
+*final keyword-> 1. to declare a constants
 *                or if you declare final variable you can not change value.
 *               2.if you declare final method then you can not override the method.
 *               3.if you declare final class then you can not inherit the class
